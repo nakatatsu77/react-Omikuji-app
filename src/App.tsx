@@ -1,11 +1,13 @@
-import React from 'react';
-import './App.css';
+import './App.css'
+import Omikuji from './Omikuji'
 
 function App() {
   return (
-    <div className="App">
-    </div>
-  );
+    <>
+      <h1>おみくじアプリ</h1>
+      <Omikuji />
+    </>
+  )
 }
 
-export default App;
+export default App
